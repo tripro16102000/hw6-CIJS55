@@ -3,7 +3,7 @@ class StoryScreen extends HTMLElement{
         super()
         this._shadowRoot = this.attachShadow({mode:"open"})
         this._shadowRoot.innerHTML = `
-        <h1>Welcome ${firebase.auth().currentUser.displayName} to my web</h1>
+        Welcome ${firebase.auth().currentUser.displayName} to my web
         <style>
         *{
             font-size: 50px
